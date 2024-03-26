@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.fruits-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 16px;
+  max-width: 1115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+.main-heading {
+  font-size: 24px;
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 700;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 48px;
+  }
+}
+.count {
+  color: #ffd569;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .counter-container {
+    flex-direction: row;
+  }
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .image-container {
+    margin-top: 96px;
+    margin-left: 48px;
+    margin-bottom: 48px;
+  }
+}
+.fruit-image {
+  width: 200px;
+  height: 175px;
+}
+@media screen and (min-width: 992px) {
+  .fruit-image {
+    width: 295px;
+    height: 270px;
+  }
+}
+.buttons-container {
+  text-align: center;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-container {
+    margin-top: 48px;
+  }
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 16px;
+  }
+}
